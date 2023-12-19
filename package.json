@@ -1,0 +1,14 @@
+{
+  "name": "maintenance",
+  "version": "1.0.0",
+  "description": "maintenance for agnikul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd maintenanceproject && yarn dev",
+    "build": "cd maintenanceproject && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

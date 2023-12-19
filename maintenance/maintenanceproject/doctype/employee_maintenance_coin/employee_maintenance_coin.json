@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-15 15:02:39.469817",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "employee_name",
+  "reports_to",
+  "coins_remaining",
+  "coins_consumed",
+  "coin_alloted",
+  "reporting_manager_email"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "reports_to",
+   "fieldtype": "Data",
+   "label": "Reports to"
+  },
+  {
+   "fieldname": "coins_remaining",
+   "fieldtype": "Data",
+   "label": "Coins Remaining"
+  },
+  {
+   "fieldname": "coins_consumed",
+   "fieldtype": "Data",
+   "label": "coins consumed"
+  },
+  {
+   "fieldname": "coin_alloted",
+   "fieldtype": "Data",
+   "label": "Coin alloted"
+  },
+  {
+   "fieldname": "reporting_manager_email",
+   "fieldtype": "Data",
+   "label": "Reporting manager Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-15 15:02:39.469817",
+ "modified_by": "Administrator",
+ "module": "maintenanceproject",
+ "name": "employee maintenance coin",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

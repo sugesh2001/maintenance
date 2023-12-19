@@ -215,3 +215,5 @@ app_license = "MIT"
 # auth_hooks = [
 #	"maintenance.auth.validate"
 # ]
+
+website_route_rules = [{'from_route': '/maintenanceproject/<path:app_path>', 'to_route': 'maintenanceproject'},]

@@ -1,0 +1,42 @@
+/* NewRequest.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.logo {
+  height: 50px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    height: auto;
+  }
+}
+.navbar {
+  width: 100%;
+}

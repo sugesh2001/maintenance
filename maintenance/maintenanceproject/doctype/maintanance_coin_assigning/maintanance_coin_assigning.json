@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-15 15:14:34.856453",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "employee_name",
+  "total_coin_available",
+  "coins_assigned",
+  "assigned_date",
+  "reporting_manager_email"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "total_coin_available",
+   "fieldtype": "Data",
+   "label": "Total Coin Available"
+  },
+  {
+   "fieldname": "coins_assigned",
+   "fieldtype": "Data",
+   "label": "Coins Assigned"
+  },
+  {
+   "fieldname": "assigned_date",
+   "fieldtype": "Data",
+   "label": "Assigned Date"
+  },
+  {
+   "fieldname": "reporting_manager_email",
+   "fieldtype": "Data",
+   "label": "Reporting Manager email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-15 15:14:34.856453",
+ "modified_by": "Administrator",
+ "module": "maintenanceproject",
+ "name": "maintanance Coin assigning",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

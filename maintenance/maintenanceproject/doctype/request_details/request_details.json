@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-15 14:50:46.903895",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "employee_name",
+  "request_type",
+  "requestsub_type",
+  "part_nos",
+  "category",
+  "purposes",
+  "location",
+  "photo",
+  "user_priority",
+  "lead_priority",
+  "manager_priority",
+  "remarks",
+  "request_statusupdate",
+  "user_name",
+  "internal",
+  "external",
+  "start_date",
+  "start_time",
+  "end_date",
+  "end_time",
+  "no_of_workers_assigned",
+  "worker_name",
+  "reporting_manager_email",
+  "vendar_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "request_type",
+   "fieldtype": "Data",
+   "label": "Request Type"
+  },
+  {
+   "fieldname": "requestsub_type",
+   "fieldtype": "Data",
+   "label": "RequestSub Type"
+  },
+  {
+   "fieldname": "part_nos",
+   "fieldtype": "Data",
+   "label": "part nos"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "purposes",
+   "fieldtype": "Data",
+   "label": "Purposes"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "user_priority",
+   "fieldtype": "Data",
+   "label": "User Priority"
+  },
+  {
+   "fieldname": "lead_priority",
+   "fieldtype": "Data",
+   "label": "Lead Priority"
+  },
+  {
+   "fieldname": "manager_priority",
+   "fieldtype": "Data",
+   "label": "Manager Priority"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "request_statusupdate",
+   "fieldtype": "Data",
+   "label": "Request Status(update)"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "user Name"
+  },
+  {
+   "fieldname": "internal",
+   "fieldtype": "Data",
+   "label": "Internal"
+  },
+  {
+   "fieldname": "external",
+   "fieldtype": "Data",
+   "label": "External"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Data",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Data",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "no_of_workers_assigned",
+   "fieldtype": "Data",
+   "label": "No of workers assigned"
+  },
+  {
+   "fieldname": "worker_name",
+   "fieldtype": "Data",
+   "label": "Worker name "
+  },
+  {
+   "fieldname": "reporting_manager_email",
+   "fieldtype": "Data",
+   "label": "Reporting manager Email"
+  },
+  {
+   "fieldname": "vendar_details",
+   "fieldtype": "Data",
+   "label": "vendar details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-15 14:50:46.903895",
+ "modified_by": "Administrator",
+ "module": "maintenanceproject",
+ "name": "Request Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

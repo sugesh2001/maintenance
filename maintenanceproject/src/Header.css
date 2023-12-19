@@ -1,0 +1,26 @@
+/* Header.css */
+
+.header {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px;
+}
+
+.nav-item {
+  color: black;
+  cursor: pointer;
+}
+
+/* Responsive design for tablet screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
